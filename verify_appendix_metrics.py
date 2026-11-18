@@ -9,7 +9,7 @@ which the main verifier covers.
 
 Unlike verify_paper_numbers.py, this script does not hardcode the paper's
 values. It PARSES the tables and the surrounding prose out of
-paper/neurips_2026.tex and compares every one against
+paper/iclr_2027.tex and compares every one against
 metric_sweep/<metric>/results.json and ablation_sweep/<metric>/results.json. A
 number added, edited or reordered in the tex is therefore checked
 automatically, and neither a table row nor a summarising sentence can stop
@@ -25,7 +25,7 @@ import os
 import re
 import sys
 
-TEX = os.path.join("paper", "neurips_2026.tex")
+TEX = os.path.join("paper", "iclr_2027.tex")
 FAIL = CHECKED = 0
 
 # table label -> artifact directory, in the row order the tables use

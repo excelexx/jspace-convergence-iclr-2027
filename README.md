@@ -1,3 +1,9 @@
+# ICLR 2027 draft
+
+Copy of `excelexx/jspace-convergence` with conference-specific filenames and draft labels updated. Research content, figures, experiments, and results are preserved. This retains the original layout and is **not** an official ICLR template conversion or a claim of acceptance.
+
+[Read the named-author paper](paper/iclr_2027_preprint.pdf). The anonymised draft is [here](paper/iclr_2027.pdf).
+
 # How Much of Platonic Convergence is Semantic? Measuring Alignment in the Jacobian Subspace
 
 Code and artifacts for the paper. Everything that produces a number or a figure
@@ -24,7 +30,7 @@ python verify_appendix_metrics.py
 
 The first recomputes 78 numbers from the JSONs in `results/` and compares each
 against the paper. The second covers 102 more in the metric appendix, parsing
-the tables and prose straight out of `paper/neurips_2026.tex` so an edited
+the tables and prose straight out of `paper/iclr_2027.tex` so an edited
 number is caught automatically.
 
 Both need only `numpy` and `scipy`. Each line prints `OK` or `MISMATCH`. A
@@ -155,7 +161,7 @@ Figure numbers are the paper's; the PDF filename prefixes have not matched them
 since the teaser was added.
 
 ```bash
-cd paper && pdflatex neurips_2026 && bibtex neurips_2026 && pdflatex neurips_2026 && pdflatex neurips_2026
+cd paper && pdflatex iclr_2027 && bibtex iclr_2027 && pdflatex iclr_2027 && pdflatex iclr_2027
 ```
 
 ## 7. What you cannot rerun here

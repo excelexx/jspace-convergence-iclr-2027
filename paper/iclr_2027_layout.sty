@@ -19,7 +19,7 @@
 % last revision: January 2026
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{neurips_2026}[2026-01-29 NeurIPS 2026 submission/camera-ready style file]
+\ProvidesPackage{iclr_2027_layout}[2026-11-18 Local draft layout adapted from NeurIPS; not official ICLR style]
 
 % declare final option, which creates camera-ready copy
 \newif\if@neuripsfinal\@neuripsfinalfalse
@@ -390,7 +390,7 @@
 % handle tweaks for camera-ready copy vs. submission copy
 \if@preprint
   \newcommand{\@noticestring}{%
-    Preprint.%
+    ICLR 2027 draft. Preprint.%
   }
 \else
   \if@neuripsfinal
@@ -399,7 +399,7 @@
     }
   \else
     \newcommand{\@noticestring}{%
-      Submitted to \@neuripsordinal\/ Conference on Neural Information Processing Systems (NeurIPS \@neuripsyear). Do not distribute.%
+      ICLR 2027 draft.%
     }
 
     % hide the acknowledgements

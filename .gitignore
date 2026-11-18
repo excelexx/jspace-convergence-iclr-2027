@@ -9,3 +9,12 @@ models/
 acts_*.pt
 results/lenscontrol/jfit/
 results/lenscontrol/sparse/
+
+# LaTeX build intermediates
+*.aux
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
